@@ -50,7 +50,7 @@ Questo aggiorna tutti i pacchetti e rimuove i file non più necessari.
 
 ### 2.2 Impostare un IP fisso
 
-Per evitare che l’indirizzo cambi ad ogni riavvio, apri il pannello del tuo router (sezione DHCP) e riserva l’indirizzo `192.168.1.100` per il Raspberry.  Un IP fisso è indispensabile per il port‑forwarding e la VPN【115596516407720†L104-L115】.
+Per evitare che l’indirizzo cambi ad ogni riavvio, apri il pannello del tuo router (sezione DHCP) e riserva l’indirizzo `192.168.1.100` per il Raspberry.  Un IP fisso è indispensabile per il port‑forwarding e la VPN.
 
 ### 2.3 Aumentare la memoria swap (opzionale)
 
@@ -113,7 +113,7 @@ Il file `.env` terrà le credenziali del database e la chiave segreta.
 
 ## 5 – Scrivere il file `docker-compose.yml`
 
-Userai due container: uno per PostgreSQL e uno per OpenProject.  Segui la struttura raccomandata dalla documentazione【703879020181655†L1446-L1451】.
+Userai due container: uno per PostgreSQL e uno per OpenProject.  Segui la struttura raccomandata dalla documentazione.
 
 ```yaml
 services:
