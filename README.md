@@ -273,8 +273,3 @@ Così il dispositivo userà Internet normalmente e invierà al Raspberry solo il
 
   Troverai un archivio `.tar.gz` nella cartella `backups/`.  Copialo periodicamente su un altro disco.
 * **Non esporre direttamente la porta 8080 su Internet**.  Accedi a OpenProject tramite VPN oppure configura un reverse‑proxy HTTPS.
-* **Documentati**: la guida ufficiale raccomanda di separare i container (database e app) per rendere il servizio scalabile【703879020181655†L1446-L1451】.  Se l’IP pubblico del tuo provider cambia spesso, un servizio come DuckDNS con port‑forwarding è fondamentale【115596516407720†L104-L115】.
-
-## 9 – Conclusione
-
-Hai trasformato il Raspberry Pi in un server di project‑management robusto e sicuro.  Da principiante hai imparato a: installare il sistema operativo, configurare Docker, avviare OpenProject, registrare un dominio dinamico, installare una VPN con WireGuard e, se necessario, instradare tutto il traffico attraverso il Pi.  Con questa base potrai aggiungere monitoraggio, backup automatici e altre integrazioni.  Buon lavoro!
